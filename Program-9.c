@@ -28,7 +28,7 @@ int main()
     }
   }
   if (c == n)
-    printf("%d is not present in the array", );
+    printf("%d is not present in the array",c);
 
   return 0;
 }
