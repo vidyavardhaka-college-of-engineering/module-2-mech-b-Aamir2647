@@ -7,21 +7,19 @@ int main(){
   scanf("%d",&n);
   printf("Enter array elements");
   for(i=0;i<n;i++)//missing code
-  scanf("%d",&a[n]);//missing code
-  printf("Enter an integer value : ");
+ scanf("%d",&a[i]);
+ //missing code
+  printf("Enter an integer value:");
   scanf("%d",&key);
-  
-    for(i=0;i<n;i++){
-  if(key==a[c]) //missing code
-  {
+  for(i=0;i<n;i++){
+    if(key==a[i])
+    {
     flag=1;
     c++;
   }
     }
    printf("The number of times the  key element  is repeated  is %d",c);//missing code
-  
-    
-    return(0);
+ return(0);
 }
 
 
