@@ -15,7 +15,7 @@ int main()
 
     for(i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);//missing code
+        scanf("%d",&arr[num]);//missing code
     }
 
     evennum = 0; // Assuming 0 even numbers
@@ -32,9 +32,10 @@ int main()
         {
             oddnum++; // increment oddnumber count
         }
-}
-printf("Total number of even numbers and odd numbers in the array are %d and %d",evennum,oddnum  );//missing code
-//printf("Total number of odd numbers in the array : %d\n",   );//missing code
+    }
+
+printf("Total number of even numbers and odd numbers in the array are %d and %d",evennum,oddnum );//missing code
+printf("Total number of odd numbers in the array : %d\n", oddnum);//missing code
 
 return(0);    
 }

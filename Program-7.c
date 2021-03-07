@@ -12,7 +12,12 @@
 	  for(i=0;i<n;i++)
 	  scanf("%d",&a[i]);
 	  printf("Array elements in reverse order : ");
-	  for(i=n;i>0;i--) 
-	  printf("%d ",a[i]);
+      for(i=n-1;i<=n-1;i--) 
+      {
+        if(a[i]<=0)
+        {break;}
+        else
+	  {printf("%d ",a[i]);
+    }}
 	  return(0);
 	}
