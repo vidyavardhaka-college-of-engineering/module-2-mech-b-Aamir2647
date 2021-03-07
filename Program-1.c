@@ -10,7 +10,7 @@ int main()
     int count = 0;
 
     /* Input number from user */
-    printf("Enter any number: ");
+    printf("Enter any number:");
     scanf("%d", &num);
 
     /* Run loop till num is greater than 0 */
